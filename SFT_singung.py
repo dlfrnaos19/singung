@@ -13,7 +13,6 @@ import torch
 
 import yaml
 import fire
-torch.backends.cuda.allow_tf32_matmul = True
 
 SYSTEM_PROMPT = "### System:"
 USER_PROMPT = " ### User: "
