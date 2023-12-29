@@ -1,13 +1,14 @@
-
-from pkgutil import get_data
 from transformers import (AutoModelForCausalLM, 
                           AutoTokenizer,
                           BitsAndBytesConfig, 
                           TrainingArguments)
 from trl import (DataCollatorForCompletionOnlyLM, 
                  SFTTrainer)
-from transformers import MistralForCausalLM, LlamaTokenizerFast
-from datasets import Dataset, load_dataset
+from transformers import (MistralForCausalLM, 
+                          LlamaTokenizerFast)
+from datasets import (Dataset, 
+                      load_dataset)
+
 from peft import LoraConfig
 import torch
 
