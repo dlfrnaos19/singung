@@ -29,15 +29,6 @@ DPO_singung.py 스크립트를 활용한 학습 모델
 ```
 
 
-### Derived models
-
-- Multimodal: [BakLLaVa-1](https://huggingface.co/SkunkworksAI/BakLLaVA-1)
-
-- Model fine-tuned on direct preferences: [Zephyr-7B-alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
-
-- Model fine-tuned on generated data: [OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
-
-
 ## References
 
 [1] [Generating Long Sequences with Sparse Transformers, Child et al. 2019](https://arxiv.org/pdf/1904.10509.pdf)
