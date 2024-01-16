@@ -1,3 +1,4 @@
 RAG/__pycache__
 RAG/vector_store/volumes
 agent/vector_store
+RAG/sample_data
